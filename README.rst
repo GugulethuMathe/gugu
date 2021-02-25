@@ -1,12 +1,8 @@
-gugu, a cool blue theme for Open edX
+gugu, a theme for Open edX
 ======================================
-
-gugu is an elegant, customizable theme for `Open edX <https://open.edx.org>`__.
 
 .. image:: ./screenshots/01-landing-page.png
     :alt: Platform landing page
-
-**Note**: This version of the gugu theme is compatible with the Koa release of Open edX.
 
 
 Installation
