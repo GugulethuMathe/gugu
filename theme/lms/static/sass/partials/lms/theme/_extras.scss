@@ -9,6 +9,14 @@ body, body.view-profile {
   min-height: initial;
   background-color: #fff;
 }
+header.global-header {
+    border-bottom: 1px solid #c8c8c8;
+    box-shadow: 0 1px 5px 0 rgb(97 51 51 / 10%);
+    background: #eceff1;
+}
+.mobile-nav-item.hidden-mobile.nav-item {
+    display: none;
+}
 a.register-btn.btn {
     display: none;
 }
