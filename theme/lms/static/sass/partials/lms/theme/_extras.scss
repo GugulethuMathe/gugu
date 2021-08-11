@@ -9,7 +9,9 @@ body, body.view-profile {
   min-height: initial;
   background-color: #fff;
 }
-
+a.register-btn.btn {
+    display: none;
+}
 %btn-pl-default-base {
   border-radius: 0;
 }
