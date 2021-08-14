@@ -10,8 +10,11 @@ body, body.view-profile {
   background-color: #fff;
 }
 header.global-header {
-    border-bottom: 1px solid #c8c8c8;
-    background: #eceff1;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    padding: 10px 0;
+    background: #fff;
+    z-index: 997;
+    transition: all 0.5s;
 }
 .toggle-form {
     display: none;
@@ -69,6 +72,7 @@ header.global-header .nav-links .secondary .user-image-frame {
 header.global-header .nav-links .secondary .dropdown-user-menu {
   position: fixed;
 }
+
 
 /////////////////// Sign in form
 
@@ -218,4 +222,88 @@ nav.wrapper-preview-menu {
           text-align: right;
       }
   }
+}
+
+
+
+
+
+.courses-container .courses .course {
+    box-sizing: border-box;
+    transition: all 0.125s linear 0s;
+    position: relative;
+    border-bottom: 3px solid #bbbbbb;
+    box-shadow: 0 1px 10px 0 rgb(107 93 93 / 80%), inset 0 0 0 1px rgb(216 212 212 / 75%);
+    background: #fff;
+    width: 93%;
+border-radius: 8px;
+}
+.home>header .title .course-search .search-input {
+    float: left;
+    padding-right: 55px;
+    padding-left: 10px;
+    border: 2px solid #c8c8c8;
+    border-radius: 20px;
+    box-shadow: none;
+    width: 100%;
+    height: 55px;
+    color: #000;
+    font-style: normal;
+    font-weight: normal;
+}
+
+footer
+.wrapper-footer footer#footer-openedx .nav-legal {
+    text-align: right;
+    font-size: 20px;
+}
+sign in button
+
+.nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
+    background-color: #ffffff;
+    color: #009ee7;
+    border: 1px solid #009ee7;
+    font-weight: 400;
+    border-radius: 15px;
+    padding: 5px 20px;
+  
+}
+
+logo css
+.global-header .header-logo a {
+    float: left;
+    margin: 8px 0 0 40px;
+    display: block;
+}
+.global-header .header-logo a .logo {
+    float: left;
+    height: 55px;
+}
+partners 
+  
+   .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -.75rem;
+    margin-left: -.75rem;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+.col-2 {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
 }
