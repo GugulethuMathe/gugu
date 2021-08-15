@@ -299,6 +299,7 @@ partners
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x)/ -2);
     margin-left: calc(var(--bs-gutter-x)/ -2);
+  margin-top: 50px;
 }
 .col-2 {
     flex: 0 0 16.66667%;
@@ -335,6 +336,7 @@ h2, .home>header .title>.heading-group p, section.outside-app h1 {
 .home>header .title>.heading-group h1 {
     text-align: center;
     color: #3370a5;
+  
 }
 .home>header .title .course-search {
     padding: 20px 0;
