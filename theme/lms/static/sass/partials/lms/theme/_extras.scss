@@ -442,3 +442,13 @@ body.error h1, .dashboard .main-container .my-courses .course .details .wrapper-
     text-align: center;
     font-weight: 600;
 }
+
+///Nav bar signin button
+.global-header .nav-links .secondary a.sign-in-btn, .global-header .nav-links .secondary .nav-item a.shopping-cart {
+    background-color: #3b85ff;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 400;
+    border-radius: 12px;
+    padding: 5px 20px;
+}
