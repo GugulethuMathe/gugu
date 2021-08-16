@@ -41,7 +41,10 @@ a.register-btn.btn {
 h1, h2, h3, h1 span, h2 span, h3 span, .nav-item {
   font-family: $font-family-title;
 }
-
+.partners .row {
+    padding: 30px;
+    background: #edf3f9;
+}
 #content.content-wrapper {
   @include media-breakpoint-up(lg) {
     padding-top: $content-padding-top;
