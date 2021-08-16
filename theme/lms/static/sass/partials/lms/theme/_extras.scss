@@ -232,8 +232,6 @@ nav.wrapper-preview-menu {
 
 
 
-
-
 .courses-container .courses .course {
     box-sizing: border-box;
     transition: all 0.125s linear 0s;
@@ -367,8 +365,6 @@ header.global-header {
 
 
 
-
-
 ///////////////////// Sign in page css starts here
 .login-register, .financial-assistance-wrapper .financial-assistance-form {
     background: #fff;
@@ -383,11 +379,10 @@ header.global-header {
 }
 .window-wrap {
     background: #fff;
-    background-image: url(https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+   
 }
+
+
 
 .login-register-content {
     box-sizing: border-box;
@@ -397,12 +392,21 @@ header.global-header {
     width: 100%;
     justify-content: center;
     margin-top: 20px;
-    /* background: #fff; */
     display: flex;
+    padding: 50px;
+    background-image: url();
+    /* background: black; */
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/11/11/15/workplace-2303851_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     -moz-flex-wrap: wrap;
 }
+
+
+
 .login-register .form-field input, .financial-assistance-wrapper .financial-assistance-form .form-field input, .login-register .form-field select, .financial-assistance-wrapper .financial-assistance-form .form-field select, .login-register .form-field textarea, .financial-assistance-wrapper .financial-assistance-form .form-field textarea {
     display: block;
     height: 42px;
