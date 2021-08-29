@@ -1,8 +1,15 @@
-$content_padding_top: 24px;
+
 $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.5px;
+p {
+    color: #fff!important;
+}
 
+
+div#content {
+    padding-top: 0!important;
+}
 body, body.view-profile {
   min-height: initial;
   background-color: #fff;
