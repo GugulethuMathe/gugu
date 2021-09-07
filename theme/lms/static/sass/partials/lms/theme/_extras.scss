@@ -5,7 +5,22 @@ $footer-height: 125.5px;
 p {
     color: #fff!important;
 }
-
+.courses-container .courses .courses-listing .courses-listing-item {
+    margin: 30px 30px 30px 30px;
+    max-height: 360px;
+    width: 25%;
+    float: left;
+    /* display: inline; */
+}
+.course-search {
+    display: none !important;
+}
+.courses-container {
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f0f3f5c4;
+}
 
 div#content {
     padding-top: 0!important;
