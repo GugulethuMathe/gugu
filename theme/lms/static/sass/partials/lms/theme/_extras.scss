@@ -5,6 +5,20 @@ $footer-height: 125.5px;
 p {
     color: #fff!important;
 }
+/* courses heading */
+
+h2#course-head{
+    font-size: 22px;
+    background: #3b85ff;
+    color: #fff;
+    font-size: 30px;
+}
+/* footer */
+.wrapper-footer {
+    background: #1a1a1a;
+    clear: both;
+    color: #fff;
+}
 .courses-container .courses .courses-listing .courses-listing-item {
     margin: 30px 30px 30px 30px;
     max-height: 360px;
@@ -435,7 +449,7 @@ header.global-header {
     /* background-image: url(/static/css/url(); */
     flex-wrap: wrap;
     /* -webkit-flex-wrap: wrap; */
-    background-image: url(https://cdn.pixabay.com/photo/2017/03/23/09/34/robot-2167836_960_720.jpg);
+    background-image: url(https://portal.tloufoundation.org.za/assets/images/signbg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
