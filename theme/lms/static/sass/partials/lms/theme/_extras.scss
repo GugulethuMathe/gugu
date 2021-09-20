@@ -19,6 +19,11 @@ h2#course-head{
     clear: both;
     color: #fff;
 }
+/* paragraphs */
+.course-info .details p {
+    margin-bottom: 10px;
+    color: black !important;
+}
 .courses-container .courses .courses-listing .courses-listing-item {
     margin: 30px 30px 30px 30px;
     max-height: 360px;
