@@ -8,6 +8,9 @@ p{
   color:black;  
   font:caption !important;
 }
+button.reset-help.field-link {
+    display: none !important;
+}
 
 h2#course-head{
     font-size: 22px;
@@ -463,6 +466,7 @@ header.global-header {
     padding: 20px;
     border-radius: 20px;
 }
+
 .window-wrap {
     background: #fff;
    
