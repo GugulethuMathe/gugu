@@ -1971,7 +1971,11 @@ ul.locat_icon li:last-child { padding-right: 0px; }
 ul.locat_icon li a{
 margin-bottom: 23px;}
 
+.course-info .details h2, .course-info .details .home>header .title>.heading-group p, .home>header .title>.heading-group .course-info .details p, .course-info .details section.outside-app h1, section.outside-app .course-info .details h1{
 
+    margin-top: 0px !important;
+
+}
 
 .about {
    
@@ -1979,7 +1983,7 @@ margin-bottom: 23px;}
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 90px 0px;
+    padding: 0px 0px;
 }
 .aboutheading {
    text-align: center;
