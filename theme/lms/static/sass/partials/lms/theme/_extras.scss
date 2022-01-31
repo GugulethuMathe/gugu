@@ -6,7 +6,7 @@ $footer-height: 125.5px;
 /* courses heading */
 p{
   color:black;  
-  font:caption !important;
+ /* font:caption !important;*/
 }
 button.reset-help.field-link {
     display: none !important;
@@ -1970,12 +1970,6 @@ ul.locat_icon li:last-child { padding-right: 0px; }
 
 ul.locat_icon li a{
 margin-bottom: 23px;}
-
-.course-info .details h2, .course-info .details .home>header .title>.heading-group p, .home>header .title>.heading-group .course-info .details p, .course-info .details section.outside-app h1, section.outside-app .course-info .details h1{
-
-    margin-top: 0px !important;
-
-}
 
 .about {
    
