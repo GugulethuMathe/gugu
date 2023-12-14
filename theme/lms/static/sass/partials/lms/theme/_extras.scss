@@ -31,6 +31,13 @@ h2#course-head{
 .col-3.part_logo {
     width: 20%;
 }
+.xmodule_display.xmodule_ProblemBlock .problem .capa_inputtype.textline input, .xmodule_display.xmodule_ProblemBlock .problem .inputtype.formulaequationinput input {
+    box-sizing: border-box;
+    border: 2px solid #e4e4e4;
+    border-radius: 3px;
+    min-width: 100%;
+    height: 46px;
+}
 /* footer */
 .wrapper-footer {
     background: #1a1a1a;
